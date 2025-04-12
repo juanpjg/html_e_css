@@ -4,14 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quiz para programadores</title>
-        <style>
-            .tabela{
-                border: solid, 1px;
-            }
-            summary{
-                cursor: pointer;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
@@ -25,7 +18,6 @@
                 <P><strong>Este quiz</strong> foi desenvolovido para testar seus conhecimentos em programação, como <em>linguagem de programação</em>, conceitos basicos e mais.</P>
                 <p>Você encontrará diferentes tipos de perguntas, incluido múltipla escolha, texto e pergunrtas de datas.<br>Desafie-se com este quiz!</p>
                 <p>Você poderá encontrar alguns acrônicos como <abbr title="HiperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web.</p>
-                <hr>
             </section>
 
             <!--Pergunta01, Multipla escolha-->
@@ -44,7 +36,6 @@
                     <input type="radio" value="Ruby" id="p1d" name="pergunta01">
                     <label for="p1d">Ruby</label>
                 </form>
-                <hr>
             </section>
 
             <!--Pergunta02, Texto-->
@@ -53,7 +44,6 @@
                 <form>
                     <input type="text" id="p2" name="pergunta02" placeholder="Resposta">
                 </form>
-                <hr>
             </section>
             
             <!--Pergunta03, Senha-->
@@ -62,7 +52,6 @@
                 <form>
                     <input type="password" id="p3" name="pergunta03" placeholder="Resposta">
                 </form>
-                <hr>
             </section>
 
             <!--Pergunta04, Data-->
@@ -71,7 +60,6 @@
                 <form>
                     <input type="date" id="p4" name="pergunta04">
                 </form>
-                <hr>
             </section>
 
             <!--Pergunta05, Seleção multipla-->
@@ -87,20 +75,17 @@
                     <input type="checkbox" value="CSS" id="p5d" name="pergunta05">
                     <label for="p5d"><abbr title="Cascading style sheets">CSS</abbr></label>
                 </form>
-                <hr>
             </section>
 
             <!--Pergunta06, Upload de arquivos-->
             <section>
-                <h1>PERGUNTA 06: Faça o upload de um arquivo contendo código HTML.</h1>
+                <h2>PERGUNTA 06: Faça o upload de um arquivo contendo código HTML.</h2>
                 <form>
                     <input type="file" id="p6" name="pergunta06">
                 </form>
-                <hr>
             </section>
 
             <!--Pergunta07, Menu suspenso-->
-
             <section>
                 <h2>PERGUNTA 07: Selecione o atributo do input que define o seu tipo:</h2>
                 <form>
@@ -111,7 +96,6 @@
                         <option value="name">name</option>
                     </select>
                 </form>
-                <hr>
             </section>
 
             <!--Pregunta08, Imagem-->
@@ -124,12 +108,11 @@
                 <form>
                     <input type="text" id="p8" name="pergunta08" placeholder="Resposta">
                 </form>
-                <hr>
             </section>
 
             <!--Tabela de pontuação-->
             <section>
-                <h1>TABELA DE PONTUAÇÃO</h1>
+                <h2>TABELA DE PONTUAÇÃO</h2>
                 <table class="tabela">
                     <thead>
                         <tr>
@@ -203,8 +186,8 @@
             </section>
         </main>
         <footer>
-            <p>&copy; Quiz de programadores. Todos os direitos resevados</p>
-            <p>Pra fazer o login: <a href="./login.html" target="_blank">clique aqui</a>.</p> <!--Desafio-->
+            <p class="paragrafo-footer">&copy; Quiz de programadores. Todos os direitos resevados</p>
+            <p class="paragrafo-footer">Pra fazer o login: <a href="./login.html" target="_blank">clique aqui</a>.</p> <!--Desafio-->
         </footer>
     </body>
 </html>
