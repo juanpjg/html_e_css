@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-/*Estilização da tabela*/
-.tabela{
-    border: solid, 1px;
-}
-summary{
-    cursor: pointer;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
 *{
     margin: 0;
@@ -15,7 +7,7 @@ summary{
 }
 
 body{
-    background-color: #F4F0EA;
+    background-color: #f4f0ea;
     color: #798252;
     font-family: "Cabin", sans-serif;
     font-weight: 400;
@@ -23,7 +15,7 @@ body{
 
 header{
     padding: 2rem;
-    background-color: #331F19;
+    background-color: #331f19;
     text-align: center;
 }
 
@@ -41,31 +33,31 @@ section{
 }
 
 h2{
-    color: #331F19;
+    color: #331f19;
     font-size: 1.2rem;
 }
 
-input[type="radio"], input[type="checkbox"] {
-    accent-color: #CCD595;
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #ccd595;
 }
 
-input[type="text"], input[type="password"], input[type="date"] ,input[type="email"]{
+input[type="text"], input[type="password"], input[type="date"], input[type="email"]{
     width: 100%;
-    padding: 1rem;
-    border: 2px solid #CCD595;
+    padding: 0.6rem;
+    border: 2px solid #ccd595;
     outline: none;
     border-radius: 5px;
     background-color: transparent;
 }
 
 input::placeholder{
-    color: #CBBBA7;
+    color: #cbbba7;
 }
 
 select{
     cursor: pointer;
-    background-color: #CCD595;
-    color: #331F19;
+    background-color: #ccd595;
+    color: #331f19;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -81,30 +73,34 @@ table{
 }
 
 th{
-    background-color: #CCD595;
-    color: #331F19;
+    background-color: #ccd595;
+    color: #331f19;
     padding: 1rem;
 }
 
 td{
-    color: #331F19;
+    color: #331f19;
     padding: 1rem;
     text-align: center;
 }
 
 tfoot td{
-    background-color: #331F19;
-    color: #F4F0EA;
+    background-color: #331f19;
+    color: #f4f0ea;
+}
+
+.tabela{
+    border: 1px solid;
 }
 
 details{
-    background-color: #CCD595;
+    background-color: #ccd595;
     border-radius: 5px;
     padding: 1rem;
 }
 
 summary{
-    color: #331F19;
+    color: #331f19;
     margin: 0.5rem;
     cursor: pointer;
 }
@@ -113,51 +109,51 @@ ol{
     margin-left: 1.5rem;
 }
 
-ol li{
+li{
     padding: 0.2rem;
 }
 
 fieldset{
-    border: 2px solid #CCD595;
+    border: 2px solid #ccd595;
     border-radius: 5px;
     padding: 1rem;
 }
 
 legend{
-    color: #331F19;
+    color: #331f19;
     padding: 0 0.5rem;
 }
 
 textarea{
     outline: none;
     border-radius: 5px;
+    border: 2px solid #ccd595;
     background-color: transparent;
-    border: 2px solid #CCD595;
-}
-
-textarea::placeholder{
-    color: #CBBBA7;
 }
 
 button{
-    background-color: #CCD595;
+    background-color: #ccd595;
     border: none;
     padding: 0.8rem;
-    color: #331F19;
+    color: #331f19;
     border-radius: 5px;
     cursor: pointer;
 }
 
 footer{
-    background-color: #331F19;
+    background-color: #331f19;
     padding: 2rem;
     text-align: center;
 }
 
 .paragrafo-footer{
-    color: #F4F0EA;
+    color: #f4f0ea;
 }
-footer a{
+
+a{
     text-decoration: none;
-    color: #CCD595;
+    color: #ccd595;
 }
+
+
+/*Comentario*/
