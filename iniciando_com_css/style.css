@@ -1,0 +1,33 @@
+
+/*Seletor de elemtos HTML*/
+h1{
+    color: red;
+}
+
+/*Seletor múltiplo*/
+p, li{
+    color: green;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*Seletor de class*/
+.special{
+    color: orange;
+    font-weight: bold;
+}
+
+/*
+Seletor de um elemento HTML junto com uma class. sintaxe: Pegue QUAlQUER elemento "li" que tenha a class "special".
+li.special{
+    color: orange;
+    font-weight: bold;
+}
+*/
+
+/*Combinador descendente onde "li" e pai de "em".*/
+p span{
+    color: red;
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: red;
+}
+
+header p{
+    color: blue;
+}
+
+ol li{
+    color: red;
+}
+
+ul span{
+    background-color: yellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+input[type="text"]{
+    background-color: aqua;
+}
+
+input.novo{
+    background-color: black;
+}
